@@ -76,7 +76,7 @@ p {
 }
 
 body {
-    margin: 0;
+    margin: 1rem;
 }
 
 header {
@@ -84,7 +84,8 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 .container {
@@ -120,7 +121,8 @@ header > section {
 }
 
 main {
-    margin: 1rem;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 #myWork > h2 {
@@ -160,6 +162,8 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 footer h2 {
